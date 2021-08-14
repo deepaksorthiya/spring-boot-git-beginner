@@ -10,6 +10,7 @@ public class ApiController {
 
     @GetMapping
     public ZonedDateTime getZonedDateTime() {
+        //I am from server
         return ZonedDateTime.now();
     }
 }
