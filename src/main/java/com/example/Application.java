@@ -7,8 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
 
     public static void main(String[] args) {
-            //I am from local
-           SpringApplication.run(Application.class, args);
+        //I am from Remote
+        //I am from local
+        SpringApplication.run(Application.class, args);
     }
 
 }
